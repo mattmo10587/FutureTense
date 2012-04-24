@@ -1,0 +1,19 @@
+{
+  "name": "FutureTense",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "This extension is for recommending articles for FutureTense publication.",
+  "background": {
+  	"scripts": ["ft_chrome_background.js"]
+  },
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "chrome_popup.html",
+    "default_title": "Add to FutureTense"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "development_comments": "Eventually, this should be able to match the chrome theme for the icon."
+}
